@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A25CF111E3BA80500CC740E /* DiasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A25CF101E3BA80500CC740E /* DiasViewController.swift */; };
 		8A3422D81E38E71400C1EFF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3422D71E38E71400C1EFF5 /* AppDelegate.swift */; };
 		8A3422DA1E38E71400C1EFF5 /* RotinaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3422D91E38E71400C1EFF5 /* RotinaViewController.swift */; };
 		8A3422DD1E38E71400C1EFF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3422DB1E38E71400C1EFF5 /* Main.storyboard */; };
@@ -31,7 +30,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8A25CF101E3BA80500CC740E /* DiasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiasViewController.swift; sourceTree = "<group>"; };
 		8A3422D41E38E71400C1EFF5 /* Do's and Don'ts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do's and Don'ts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3422D71E38E71400C1EFF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A3422D91E38E71400C1EFF5 /* RotinaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotinaViewController.swift; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 				8A3422DE1E38E71400C1EFF5 /* Assets.xcassets */,
 				8A3422E01E38E71400C1EFF5 /* LaunchScreen.storyboard */,
 				8A3422E31E38E71400C1EFF5 /* Info.plist */,
-				8A25CF101E3BA80500CC740E /* DiasViewController.swift */,
 			);
 			path = "Do's and Don'ts";
 			sourceTree = "<group>";
@@ -234,7 +231,6 @@
 				8AFFD4DC1E48C4BF001BEA23 /* HorarioChecksViewController.swift in Sources */,
 				8AFFD4D51E48C3A0001BEA23 /* EspecificoSemanaViewController.swift in Sources */,
 				8AFFD4D01E44D60A001BEA23 /* BoolViewController.swift in Sources */,
-				8A25CF111E3BA80500CC740E /* DiasViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
