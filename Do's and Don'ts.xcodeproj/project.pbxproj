@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		8A25CF111E3BA80500CC740E /* DiasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A25CF101E3BA80500CC740E /* DiasViewController.swift */; };
 		8A3422D81E38E71400C1EFF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3422D71E38E71400C1EFF5 /* AppDelegate.swift */; };
-		8A3422DA1E38E71400C1EFF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3422D91E38E71400C1EFF5 /* ViewController.swift */; };
+		8A3422DA1E38E71400C1EFF5 /* RotinaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3422D91E38E71400C1EFF5 /* RotinaViewController.swift */; };
 		8A3422DD1E38E71400C1EFF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3422DB1E38E71400C1EFF5 /* Main.storyboard */; };
 		8A3422DF1E38E71400C1EFF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3422DE1E38E71400C1EFF5 /* Assets.xcassets */; };
 		8A3422E21E38E71400C1EFF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3422E01E38E71400C1EFF5 /* LaunchScreen.storyboard */; };
+		8AFFD4BE1E44C01E001BEA23 /* AtividadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD4BD1E44C01E001BEA23 /* AtividadeViewController.swift */; };
+		8AFFD4C01E44C049001BEA23 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD4BF1E44C049001BEA23 /* MenuViewController.swift */; };
+		8AFFD4C21E44C35A001BEA23 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD4C11E44C35A001BEA23 /* CollectionViewCell.swift */; };
+		8AFFD4C61E44D563001BEA23 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD4C51E44D563001BEA23 /* TodoViewController.swift */; };
+		8AFFD4C81E44D590001BEA23 /* TantoEmTantoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD4C71E44D590001BEA23 /* TantoEmTantoViewController.swift */; };
+		8AFFD4CA1E44D5AA001BEA23 /* EspecificoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD4C91E44D5AA001BEA23 /* EspecificoViewController.swift */; };
+		8AFFD4CC1E44D5E9001BEA23 /* UnitarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD4CB1E44D5E9001BEA23 /* UnitarioViewController.swift */; };
+		8AFFD4CE1E44D5FA001BEA23 /* HorarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD4CD1E44D5FA001BEA23 /* HorarioViewController.swift */; };
+		8AFFD4D01E44D60A001BEA23 /* BoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD4CF1E44D60A001BEA23 /* BoolViewController.swift */; };
+		8AFFD4D21E44D620001BEA23 /* QuebradosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD4D11E44D620001BEA23 /* QuebradosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A25CF101E3BA80500CC740E /* DiasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiasViewController.swift; sourceTree = "<group>"; };
 		8A3422D41E38E71400C1EFF5 /* Do's and Don'ts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do's and Don'ts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3422D71E38E71400C1EFF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A3422D91E38E71400C1EFF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A3422D91E38E71400C1EFF5 /* RotinaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotinaViewController.swift; sourceTree = "<group>"; };
 		8A3422DC1E38E71400C1EFF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A3422DE1E38E71400C1EFF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A3422E11E38E71400C1EFF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A3422E31E38E71400C1EFF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AFFD4BD1E44C01E001BEA23 /* AtividadeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtividadeViewController.swift; sourceTree = "<group>"; };
+		8AFFD4BF1E44C049001BEA23 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		8AFFD4C11E44C35A001BEA23 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		8AFFD4C51E44D563001BEA23 /* TodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		8AFFD4C71E44D590001BEA23 /* TantoEmTantoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TantoEmTantoViewController.swift; sourceTree = "<group>"; };
+		8AFFD4C91E44D5AA001BEA23 /* EspecificoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EspecificoViewController.swift; sourceTree = "<group>"; };
+		8AFFD4CB1E44D5E9001BEA23 /* UnitarioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitarioViewController.swift; sourceTree = "<group>"; };
+		8AFFD4CD1E44D5FA001BEA23 /* HorarioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorarioViewController.swift; sourceTree = "<group>"; };
+		8AFFD4CF1E44D60A001BEA23 /* BoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolViewController.swift; sourceTree = "<group>"; };
+		8AFFD4D11E44D620001BEA23 /* QuebradosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuebradosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +77,12 @@
 			isa = PBXGroup;
 			children = (
 				8A3422D71E38E71400C1EFF5 /* AppDelegate.swift */,
-				8A3422D91E38E71400C1EFF5 /* ViewController.swift */,
+				8AFFD4BF1E44C049001BEA23 /* MenuViewController.swift */,
+				8A3422D91E38E71400C1EFF5 /* RotinaViewController.swift */,
+				8AFFD4C41E44C49F001BEA23 /* RotinaViews */,
+				8AFFD4BD1E44C01E001BEA23 /* AtividadeViewController.swift */,
+				8AFFD4C31E44C48C001BEA23 /* AtividadeViews */,
+				8AFFD4C11E44C35A001BEA23 /* CollectionViewCell.swift */,
 				8A3422DB1E38E71400C1EFF5 /* Main.storyboard */,
 				8A3422DE1E38E71400C1EFF5 /* Assets.xcassets */,
 				8A3422E01E38E71400C1EFF5 /* LaunchScreen.storyboard */,
@@ -65,6 +90,27 @@
 				8A25CF101E3BA80500CC740E /* DiasViewController.swift */,
 			);
 			path = "Do's and Don'ts";
+			sourceTree = "<group>";
+		};
+		8AFFD4C31E44C48C001BEA23 /* AtividadeViews */ = {
+			isa = PBXGroup;
+			children = (
+				8AFFD4CB1E44D5E9001BEA23 /* UnitarioViewController.swift */,
+				8AFFD4CD1E44D5FA001BEA23 /* HorarioViewController.swift */,
+				8AFFD4CF1E44D60A001BEA23 /* BoolViewController.swift */,
+				8AFFD4D11E44D620001BEA23 /* QuebradosViewController.swift */,
+			);
+			name = AtividadeViews;
+			sourceTree = "<group>";
+		};
+		8AFFD4C41E44C49F001BEA23 /* RotinaViews */ = {
+			isa = PBXGroup;
+			children = (
+				8AFFD4C51E44D563001BEA23 /* TodoViewController.swift */,
+				8AFFD4C71E44D590001BEA23 /* TantoEmTantoViewController.swift */,
+				8AFFD4C91E44D5AA001BEA23 /* EspecificoViewController.swift */,
+			);
+			name = RotinaViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +186,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A3422DA1E38E71400C1EFF5 /* ViewController.swift in Sources */,
+				8AFFD4C81E44D590001BEA23 /* TantoEmTantoViewController.swift in Sources */,
+				8AFFD4CE1E44D5FA001BEA23 /* HorarioViewController.swift in Sources */,
+				8A3422DA1E38E71400C1EFF5 /* RotinaViewController.swift in Sources */,
+				8AFFD4C01E44C049001BEA23 /* MenuViewController.swift in Sources */,
+				8AFFD4CA1E44D5AA001BEA23 /* EspecificoViewController.swift in Sources */,
+				8AFFD4C61E44D563001BEA23 /* TodoViewController.swift in Sources */,
+				8AFFD4CC1E44D5E9001BEA23 /* UnitarioViewController.swift in Sources */,
+				8AFFD4C21E44C35A001BEA23 /* CollectionViewCell.swift in Sources */,
 				8A3422D81E38E71400C1EFF5 /* AppDelegate.swift in Sources */,
+				8AFFD4BE1E44C01E001BEA23 /* AtividadeViewController.swift in Sources */,
+				8AFFD4D21E44D620001BEA23 /* QuebradosViewController.swift in Sources */,
+				8AFFD4D01E44D60A001BEA23 /* BoolViewController.swift in Sources */,
 				8A25CF111E3BA80500CC740E /* DiasViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

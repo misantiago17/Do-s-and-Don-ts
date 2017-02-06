@@ -8,11 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RotinaViewController: UIViewController {
 
     @IBOutlet weak var viewTodo: UIView!
     @IBOutlet weak var viewTantoEmTanto: UIView!
     @IBOutlet weak var viewEspecifico: UIView!
+    
+    @IBOutlet weak var txtNome: UITextField!
+    @IBOutlet weak var txtDescricao: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
