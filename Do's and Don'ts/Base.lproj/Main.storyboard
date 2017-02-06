@@ -374,6 +374,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="lblTipoRotina" destination="Jm2-y3-b9u" id="ouV-St-CLJ"/>
                         <outlet property="txtItem" destination="9Uu-Ga-89q" id="nDx-P1-0S0"/>
                         <outlet property="viewBool" destination="Wlt-FM-Y9z" id="YW1-Ci-QXm"/>
                         <outlet property="viewHorario" destination="Phv-bt-hvm" id="WC9-s7-FMa"/>
@@ -456,10 +457,10 @@
             </objects>
             <point key="canvasLocation" x="1837.5999999999999" y="530.28485757121439"/>
         </scene>
-        <!--View Controller-->
+        <!--Especifico Semana View Controller-->
         <scene sceneID="sd2-CA-YUf">
             <objects>
-                <viewController id="8Aw-sw-per" sceneMemberID="viewController">
+                <viewController id="8Aw-sw-per" customClass="EspecificoSemanaViewController" customModule="Do_s_and_Don_ts" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZMr-OY-ay3"/>
                         <viewControllerLayoutGuide type="bottom" id="gVY-4E-Y1H"/>
@@ -487,6 +488,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U3K-Qy-rab">
                                 <rect key="frame" x="16" y="8" width="33" height="30"/>
                                 <state key="normal" title="Dom"/>
+                                <connections>
+                                    <action selector="escolhaDiasSemana:" destination="8Aw-sw-per" eventType="touchUpInside" id="bYA-hz-NNG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cX7-mH-bVG">
                                 <rect key="frame" x="219" y="8" width="34" height="30"/>
@@ -533,10 +537,10 @@
             </objects>
             <point key="canvasLocation" x="2548" y="-103.89805097451276"/>
         </scene>
-        <!--View Controller-->
+        <!--Especifico Mes View Controller-->
         <scene sceneID="XaO-Rx-NYf">
             <objects>
-                <viewController id="gDf-d0-Rcz" sceneMemberID="viewController">
+                <viewController id="gDf-d0-Rcz" customClass="EspecificoMesViewController" customModule="Do_s_and_Don_ts" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lfV-3u-M87"/>
                         <viewControllerLayoutGuide type="bottom" id="Doe-9d-ef8"/>
@@ -565,10 +569,10 @@
             </objects>
             <point key="canvasLocation" x="2548" y="235"/>
         </scene>
-        <!--View Controller-->
+        <!--Especifico Ano View Controller-->
         <scene sceneID="dhU-5A-KdT">
             <objects>
-                <viewController id="P2q-vW-Ax3" sceneMemberID="viewController">
+                <viewController id="P2q-vW-Ax3" customClass="EspecificoAnoViewController" customModule="Do_s_and_Don_ts" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4Np-hW-3Y3"/>
                         <viewControllerLayoutGuide type="bottom" id="Du3-kP-AQg"/>
@@ -982,10 +986,10 @@
             </objects>
             <point key="canvasLocation" x="1837.5999999999999" y="1541.3793103448277"/>
         </scene>
-        <!--View Controller-->
+        <!--Horario Checks View Controller-->
         <scene sceneID="jwp-xz-L9v">
             <objects>
-                <viewController id="Hya-Uf-jHv" sceneMemberID="viewController">
+                <viewController id="Hya-Uf-jHv" customClass="HorarioChecksViewController" customModule="Do_s_and_Don_ts" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="quN-Mx-1N3"/>
                         <viewControllerLayoutGuide type="bottom" id="MkB-Aj-Iy1"/>
@@ -996,6 +1000,9 @@
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kkd-ww-Omw">
                                 <rect key="frame" x="16" y="20" width="51" height="31"/>
+                                <connections>
+                                    <action selector="colocarCountdown:" destination="Hya-Uf-jHv" eventType="valueChanged" id="5Qi-ap-1s6"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colocar countdown" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y0u-dg-nre">
                                 <rect key="frame" x="73" y="25" width="149" height="21"/>
@@ -1030,15 +1037,18 @@
                             <constraint firstAttribute="leadingMargin" secondItem="Kkd-ww-Omw" secondAttribute="leading" id="x2S-PO-bH9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pickerCountdown" destination="egv-vM-EBC" id="LUh-v9-bmn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8R3-9T-HIJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2548" y="926.53673163418296"/>
         </scene>
-        <!--View Controller-->
+        <!--Horario Fixo View Controller-->
         <scene sceneID="ZlC-MG-l6z">
             <objects>
-                <viewController id="Kwk-YU-YCK" sceneMemberID="viewController">
+                <viewController id="Kwk-YU-YCK" customClass="HorarioFixoViewController" customModule="Do_s_and_Don_ts" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ttb-t0-WFb"/>
                         <viewControllerLayoutGuide type="bottom" id="QKv-2Q-PBX"/>
@@ -1081,6 +1091,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="KvP-S1-joe" secondAttribute="trailing" id="qxv-ed-tnH"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pickerHorarioFIxo" destination="KvP-S1-joe" id="abz-An-SVJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b9V-LK-vvU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

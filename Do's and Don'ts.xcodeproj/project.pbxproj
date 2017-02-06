@@ -23,6 +23,11 @@
 		8AFFD4CE1E44D5FA001BEA23 /* HorarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD4CD1E44D5FA001BEA23 /* HorarioViewController.swift */; };
 		8AFFD4D01E44D60A001BEA23 /* BoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD4CF1E44D60A001BEA23 /* BoolViewController.swift */; };
 		8AFFD4D21E44D620001BEA23 /* QuebradosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD4D11E44D620001BEA23 /* QuebradosViewController.swift */; };
+		8AFFD4D51E48C3A0001BEA23 /* EspecificoSemanaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD4D41E48C3A0001BEA23 /* EspecificoSemanaViewController.swift */; };
+		8AFFD4D71E48C3BC001BEA23 /* EspecificoMesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD4D61E48C3BC001BEA23 /* EspecificoMesViewController.swift */; };
+		8AFFD4D91E48C3CC001BEA23 /* EspecificoAnoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD4D81E48C3CB001BEA23 /* EspecificoAnoViewController.swift */; };
+		8AFFD4DC1E48C4BF001BEA23 /* HorarioChecksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD4DB1E48C4BF001BEA23 /* HorarioChecksViewController.swift */; };
+		8AFFD4DE1E48C4DC001BEA23 /* HorarioFixoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFD4DD1E48C4DC001BEA23 /* HorarioFixoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +49,11 @@
 		8AFFD4CD1E44D5FA001BEA23 /* HorarioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorarioViewController.swift; sourceTree = "<group>"; };
 		8AFFD4CF1E44D60A001BEA23 /* BoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolViewController.swift; sourceTree = "<group>"; };
 		8AFFD4D11E44D620001BEA23 /* QuebradosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuebradosViewController.swift; sourceTree = "<group>"; };
+		8AFFD4D41E48C3A0001BEA23 /* EspecificoSemanaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EspecificoSemanaViewController.swift; sourceTree = "<group>"; };
+		8AFFD4D61E48C3BC001BEA23 /* EspecificoMesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EspecificoMesViewController.swift; sourceTree = "<group>"; };
+		8AFFD4D81E48C3CB001BEA23 /* EspecificoAnoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EspecificoAnoViewController.swift; sourceTree = "<group>"; };
+		8AFFD4DB1E48C4BF001BEA23 /* HorarioChecksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorarioChecksViewController.swift; sourceTree = "<group>"; };
+		8AFFD4DD1E48C4DC001BEA23 /* HorarioFixoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorarioFixoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,7 @@
 				8AFFD4CD1E44D5FA001BEA23 /* HorarioViewController.swift */,
 				8AFFD4CF1E44D60A001BEA23 /* BoolViewController.swift */,
 				8AFFD4D11E44D620001BEA23 /* QuebradosViewController.swift */,
+				8AFFD4DA1E48C4A0001BEA23 /* HorarioViews */,
 			);
 			name = AtividadeViews;
 			sourceTree = "<group>";
@@ -109,8 +120,28 @@
 				8AFFD4C51E44D563001BEA23 /* TodoViewController.swift */,
 				8AFFD4C71E44D590001BEA23 /* TantoEmTantoViewController.swift */,
 				8AFFD4C91E44D5AA001BEA23 /* EspecificoViewController.swift */,
+				8AFFD4D31E48C36A001BEA23 /* EspecificoViews */,
 			);
 			name = RotinaViews;
+			sourceTree = "<group>";
+		};
+		8AFFD4D31E48C36A001BEA23 /* EspecificoViews */ = {
+			isa = PBXGroup;
+			children = (
+				8AFFD4D41E48C3A0001BEA23 /* EspecificoSemanaViewController.swift */,
+				8AFFD4D61E48C3BC001BEA23 /* EspecificoMesViewController.swift */,
+				8AFFD4D81E48C3CB001BEA23 /* EspecificoAnoViewController.swift */,
+			);
+			name = EspecificoViews;
+			sourceTree = "<group>";
+		};
+		8AFFD4DA1E48C4A0001BEA23 /* HorarioViews */ = {
+			isa = PBXGroup;
+			children = (
+				8AFFD4DB1E48C4BF001BEA23 /* HorarioChecksViewController.swift */,
+				8AFFD4DD1E48C4DC001BEA23 /* HorarioFixoViewController.swift */,
+			);
+			name = HorarioViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,17 +217,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AFFD4D71E48C3BC001BEA23 /* EspecificoMesViewController.swift in Sources */,
 				8AFFD4C81E44D590001BEA23 /* TantoEmTantoViewController.swift in Sources */,
 				8AFFD4CE1E44D5FA001BEA23 /* HorarioViewController.swift in Sources */,
+				8AFFD4DE1E48C4DC001BEA23 /* HorarioFixoViewController.swift in Sources */,
 				8A3422DA1E38E71400C1EFF5 /* RotinaViewController.swift in Sources */,
 				8AFFD4C01E44C049001BEA23 /* MenuViewController.swift in Sources */,
 				8AFFD4CA1E44D5AA001BEA23 /* EspecificoViewController.swift in Sources */,
 				8AFFD4C61E44D563001BEA23 /* TodoViewController.swift in Sources */,
 				8AFFD4CC1E44D5E9001BEA23 /* UnitarioViewController.swift in Sources */,
 				8AFFD4C21E44C35A001BEA23 /* CollectionViewCell.swift in Sources */,
+				8AFFD4D91E48C3CC001BEA23 /* EspecificoAnoViewController.swift in Sources */,
 				8A3422D81E38E71400C1EFF5 /* AppDelegate.swift in Sources */,
 				8AFFD4BE1E44C01E001BEA23 /* AtividadeViewController.swift in Sources */,
 				8AFFD4D21E44D620001BEA23 /* QuebradosViewController.swift in Sources */,
+				8AFFD4DC1E48C4BF001BEA23 /* HorarioChecksViewController.swift in Sources */,
+				8AFFD4D51E48C3A0001BEA23 /* EspecificoSemanaViewController.swift in Sources */,
 				8AFFD4D01E44D60A001BEA23 /* BoolViewController.swift in Sources */,
 				8A25CF111E3BA80500CC740E /* DiasViewController.swift in Sources */,
 			);

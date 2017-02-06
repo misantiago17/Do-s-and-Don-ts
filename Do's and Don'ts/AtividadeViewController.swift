@@ -16,6 +16,7 @@ class AtividadeViewController: UIViewController {
     @IBOutlet weak var viewUnitario: UIView!
     
     @IBOutlet weak var txtItem: UITextField!
+    @IBOutlet weak var lblTipoRotina: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
